@@ -13,7 +13,9 @@ function App() {
 		  <Metronome />
 	  </div>
 
-	  <Youtube />
+	  <div className="Video">
+		  <Youtube />
+	  </div>
 
     </div>
   );

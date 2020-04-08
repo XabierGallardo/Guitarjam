@@ -4,4 +4,14 @@
 
 .Tuner, .Metronome {
 	flex: 1;
+	border: 1px solid white;
+}
+
+.Video {
+	display: flex;
+	width: 100%;
+}
+
+.Youtube {
+	margin: 0 auto;
 }
