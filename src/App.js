@@ -1,23 +1,20 @@
 import React from 'react';
 import './App.css';
-import Guitar from './Guitar';
-import Bass from './Bass';
+import Header from './Header';
+import Tuner from './Tuner';
 import Metronome from './Metronome';
 import Youtube from './Youtube';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
-	  
-	  <div className="Tuning">
-		  <Guitar />
-		  <Bass />
-	  </div>
 
-	  <div className="Music">
-		  <Metronome />
-		  <Youtube />
-	  </div>
+		<Header />
+		<Tuner />
+		<Metronome />
+		<Youtube />
+		<Footer />
 
     </div>
   );

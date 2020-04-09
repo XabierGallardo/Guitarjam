@@ -1,29 +1,36 @@
-.Tuning, .Music {
+.App {
 	display: flex;
-	height: 500px;
-}
-
-.Guitar, .Bass, .Metronome, .Youtube {
-	flex: 1;
-}
-
-.Guitar, .Bass {
-	font-family: 'Courier New', Courier, monospace;
+	flex-direction: column;
+	background: #000103;
 	color: white;
+	font-family: 'Cutive Mono', monospace;
 }
 
+.Header a {
+	text-decoration: none;
+	color: white;
+	font-size: xxx-large;
+}
 
-.Guitar {
-	background-image: url("img/guitar2.jpg");
+.Header, .Footer {
+	height: 100px;
+}
+.Tuner, .Metronome {
+	height: 900px;
+}
+
+.Tuner {
+	background-image: url("img/tuner.jpg");
 	background-size: cover;
 }
 
-.Bass {
-	background-image: url("img/bass2.jpg");
-	background-size: cover;
+.Tuner h1 {
+	cursor: pointer;
 }
 
 .Metronome {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 	background-image: url("img/metronome.jpg");
 	background-size: cover;
 }
@@ -32,8 +39,6 @@
 	width: 80px;
 }
 
-
-
 .Youtube {
-	margin: 0 auto;
+	
 }

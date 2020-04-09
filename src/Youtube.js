@@ -9,8 +9,9 @@ import Iframe from 'react-iframe';
 function Youtube() {
 	return(
 		<div className="Youtube">
+			<h1>YOUTUBE</h1>
 			<Iframe url="https://www.youtube.com/embed/?listType=user_uploads&list=masanoriutsumi"
-			width="900px" height="496px" />
+			width="100%" height="496px" frameBorder="0" />
 		</div>
 	);
 }
