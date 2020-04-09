@@ -10,7 +10,7 @@ function Youtube() {
 	return(
 		<div className="Youtube">
 			<Iframe url="https://www.youtube.com/embed/?listType=user_uploads&list=masanoriutsumi"
-			width="800px" height="400px" />
+			width="900px" height="496px" />
 		</div>
 	);
 }

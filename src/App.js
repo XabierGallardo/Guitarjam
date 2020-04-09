@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Tuner from './Tuner';
+import Guitar from './Guitar';
+import Bass from './Bass';
 import Metronome from './Metronome';
 import Youtube from './Youtube';
 
@@ -8,12 +9,13 @@ function App() {
   return (
     <div className="App">
 	  
-	  <div className="Tools">
-		  <Tuner />
-		  <Metronome />
+	  <div className="Tuning">
+		  <Guitar />
+		  <Bass />
 	  </div>
 
-	  <div className="Video">
+	  <div className="Music">
+		  <Metronome />
 		  <Youtube />
 	  </div>
 

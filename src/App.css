@@ -1,16 +1,38 @@
-.Tools {
+.Tuning, .Music {
 	display: flex;
+	height: 500px;
 }
 
-.Tuner, .Metronome {
+.Guitar, .Bass, .Metronome, .Youtube {
 	flex: 1;
-	border: 1px solid white;
 }
 
-.Video {
-	display: flex;
-	width: 100%;
+.Guitar, .Bass {
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
 }
+
+
+.Guitar {
+	background-image: url("img/guitar2.jpg");
+	background-size: cover;
+}
+
+.Bass {
+	background-image: url("img/bass2.jpg");
+	background-size: cover;
+}
+
+.Metronome {
+	background-image: url("img/metronome.jpg");
+	background-size: cover;
+}
+
+.Metronome img {
+	width: 80px;
+}
+
+
 
 .Youtube {
 	margin: 0 auto;
